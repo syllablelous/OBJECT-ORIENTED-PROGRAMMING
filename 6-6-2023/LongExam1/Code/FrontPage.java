@@ -1,18 +1,15 @@
 package FinalGUI; //You can omit this line or edit it to match your corresponding package if you want to run the code.
 
-import java.awt.EventQueue;
+/*
+ * The following imported packages and classes are required in order to be able to inherit and utilize the JFrame class and 
+ * other necessary classes and libraries in order to run this program.
+ */
 import java.awt.*;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.BorderLayout;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
 import java.io.*;
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
