@@ -51,6 +51,7 @@ public class PortfolioPages extends JFrame{
 		
 		backgroundLabel.setBounds(5, 5, 1280, 720);
 		try {
+			// You can edit the file path inside new File() in order to match the current file path of the image file.
 			ImageIcon img = new ImageIcon(ImageIO.read(new File("/Users/russeljeromerapi/Downloads/AboutMeandContacts.png")).getScaledInstance(1280, 720, Image.SCALE_SMOOTH));
 			backgroundLabel.setIcon(img); // Allows for me to set the background image for the frame using the image loaded in the ImageIcon object img.
 		}
@@ -97,6 +98,7 @@ public class PortfolioPages extends JFrame{
 	 * as the argument-value for backgroundLabel.setIcon().
 	 */
 	public ImageIcon setPage(int pageNo) {
+		// In the following if-elseif-else ladder, you can edit the file path inside new File() in order to match the current file path of the required image file.
 		ImageIcon img = null;
 		try {
 			if (pageCounter == -1) {
